@@ -30,7 +30,7 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 0px;
     font-size: 1.2em;
     align-self: center;
 }
@@ -152,6 +152,7 @@ main {
 #time6,
 #time7 {
     margin-bottom: 0.7em;
+    margin-top: 3em;
 }
 
 #day2,
@@ -160,7 +161,7 @@ main {
 #day5,
 #day6,
 #day7 {
-    margin-top: 0.7em;
+    margin-top: 0.4em;
 }
 
 .location__container {
@@ -172,6 +173,7 @@ main {
 
 .fa {
     font-size: 1.5em;
+    margin-right: 0.5em;
     align-self: center;
 }
 
@@ -204,7 +206,7 @@ main {
 
 .footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-    min-height: 30px;
+    min-height: 56<px;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -212,9 +214,10 @@ main {
 }
 
 .footer_box_1 {
-    margin-top: 2em;
     font-size: 0.9em;
     flex-grow: 1;
+    margin-top: 1em;
+    margin-bottom: 2em;
     align-self: center;
 }
 
