@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://use.fontawesome.com/dc44bbcab5.js"></script>
+    <title>Local weather</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css"> </head>
+
+
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <h1 class="header__title">
+                Local Weather App
+            </h1>
+        </div>
+    </header>
+    <main>
+        <section class="weather__content">
+            <section class="weather"> <span <h2 class="weather__location" id="location_short">> </h2></span> <span class="weather__desc" id="desc"></span></section>
+            <section class="weather__today"> <img class="weather__today__image" id="icon" src="" alt="icon of weather"><span class="weather__today__temp" id="temp"></span><span class="weather__today__deg"></span> </section>
+            <section></section>
+        </section>
+        <section class="location__container">
+            <span class="fa fa-map-marker" aria-hidden="true"></span>
+            <span id="location_long"></span>
+
+        </section>
+        <section class="forecast_container"><span class="weather__forecast" id="forecast"></span></section>
+        <hr class="hr_style">
+        <ul class="weather__next">
+            <li class="weather__next__item"> <span id="time2">test</span> <img class="weather__next__image" id="icon0" alt="icon of a sunny day"> <span id="day2"></span> </li>
+            <li class="weather__next__item"> <span id="time3"></span> <img class="weather__next__image" id="icon1" alt="icon of a cloudy day"> <span id="day3"></span> </li>
+            <li class="weather__next__item"> <span id="time4"></span> <img class="weather__next__image" id="icon2" alt="icon of a cloudy day"> <span id="day4"></span> </li>
+            <li class="weather__next__item"> <span id="time5"></span> <img class="weather__next__image" id="icon3" alt="icon of a rainy day"> <span id="day5"></span> </li>
+            <li class="weather__next__item"> <span id="time6"></span> <img class="weather__next__image" id="icon4" alt="icon of a sunny day"> <span id="day6"></span> </li>
+            <li class="weather__next__item"> <span id="time7"></span> <img class="weather__next__image" id="icon5" alt="icon of a sunny day"> <span id="day7"></span> </li>
+        </ul>
+
+    </main>
+
+    <footer>
+        <section class="footer">
+            <span class="footer_box_1">
+                <ul>
+                <li><p>Coded by Tommy Strand</p></li>
+                <li><a href="//github.com/udacity/responsive-images/tree/master/project/start" title="View source for this page on GitHub">View source on GitHub</a>
+             </li>
+                </ul>
+            </span>
+            <span class="footer_box_2">
+                <ul>
+                    <li> <a href="https://darksky.net/poweredby/">Powered by Dark Sky</a></li>
+                    <li> <a href="https://yr.no/">Icons courtesy of yr.no</a></li>
+                </ul>
+            </span>
+
+        </section>
+    </footer>
+
+
+    <script type=" text/javascript " src="jquery/dist/jquery.min.js "></script>
+    <!--<script type="text/javascript " src="geocoding.js "></script>-->
+    <script type="text/javascript " src="script.js "></script>
+</body>
+
+</html>
