@@ -49,7 +49,8 @@ function getWeather(longitude, latitude) {
     //Get data from Darksky api
     $.getJSON('https://api.darksky.net/forecast/79249491b88d783afcaaceeab1cfe6c8/' + latitude + ',' + longitude + '?callback=?&units=' + units + '', function(json) {
         icon = json.currently.icon;
-        $("#temp").html(Math.round(json.currently.temperature) + ('&deg;C'));
+        temp = json.currently.temperature;
+        $("#temp").html(Math.round(temp) + ('&deg;C'));
         $("#desc").html(json.currently.summary);
 
         //Get forecast weather conditions and date
