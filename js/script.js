@@ -95,15 +95,15 @@ function getWeather(longitude, latitude) {
 
         //Array of weather condition images
         var imageArray = [{
-            "src": "icons/b100/09.png",
+            "src": "icons/09.png",
             "title": "rain",
             "imageCaption": "Image caption for rain"
         }, {
-            "src": "icons/b100/mf/01n.50.png",
+            "src": "icons/01n.50.png",
             "title": "clear-night",
             "imageCaption": "Image caption for clear night"
         }, {
-            "src": "icons/b100/01d.png",
+            "src": "icons/01d.png",
             "title": "clear-day",
             "imageCaption": "Image caption for clear day"
         }, {
@@ -127,9 +127,9 @@ function getWeather(longitude, latitude) {
             "title": "partly-cloudy-day",
             "imageCaption": "Image caption for partly cloudy day"
         }, {
-            "src": "icons/01n.50.png",
-            "title": "clear-night",
-            "imageCaption": "Image caption for partly clear night"
+            "src": "icons/16.png",
+            "title": "wind",
+            "imageCaption": "Image caption for wind"
         }, {
             "src": "icons/03n.50.png",
             "title": "partly-cloudy-night",
