@@ -204,7 +204,7 @@ main {
 
 .footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-    min-height: 56px;
+    min-height: 30px;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -247,20 +247,23 @@ main {
         font-size: 1em;
     }
     .weather__location {
-        font-size: 1.5em;
+        font-size: 2em;
+    }
+    .weather__today__temp {
+        font-size: 2.5em;
     }
     .Weather__content {
         margin: 0 0 0 0;
         flex-direction: column;
     }
-    .weather__today__image {
+    /* .weather__today__image {
         width: 60px;
         height: 60px;
     }
     .weather__next__image {
         width: 60px;
         height: 60px;
-    }
+    }*/
 }
 
 @media screen and (min-width: 550px) {
