@@ -1,0 +1,1 @@
+This is a project from Free Code Camp. It is a weather app that show the local weather based on your location. it also show a forecast for the next 6 days
