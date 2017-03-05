@@ -16,7 +16,6 @@ $(document).ready(function() {
     //Get the current address
     function getAddress(longitude, latitude) {
         $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latitude + '%2C' + longitude + '&key=AIzaSyDH2RelUndp0Km1mdWff5PdvPIo-j9B9gg&language=en', function(json) {
-            console.log(json);
             $("#location_short").html(json.results[1].address_components[0].long_name);
             $("#location_long").html(json.results[1].formatted_address);
         });
@@ -49,7 +48,6 @@ function getWeather(longitude, latitude) {
 
     //Get data from Darksky api
     $.getJSON('https://api.darksky.net/forecast/79249491b88d783afcaaceeab1cfe6c8/' + latitude + ',' + longitude + '?callback=?&units=' + units + '', function(json) {
-        console.log(json);
         icon = json.currently.icon;
         $("#temp").html(Math.round(json.currently.temperature) + ('&deg;C'));
         $("#desc").html(json.currently.summary);
