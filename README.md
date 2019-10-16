@@ -1,1 +1,1 @@
-This is a project from Free Code Camp. It is a weather app that show the local weather based on your location. it also show a forecast for the next 6 days
+This is a project from Freecodecamp. It is a weather app that show the local weather based on your location. It shows the weather at the given time, and a forecast for the next 6 days. A live project is found at: https://tomstrand.github.io/Local-Weather-app/
