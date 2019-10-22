@@ -47,7 +47,7 @@ function getWeather(longitude, latitude) {
     var tempArray = []; //to store temps
 
     //Get data from Darksky api
-    $.getJSON('https://api.darksky.net/forecast/79249491b88d783afcaaceeab1cfe6c8/' + latitude + ',' + longitude + '?callback=?&units=' + units + '', function(json) {
+    $.getJSON('https://api.darksky.net/forecast/4c34fb607df64ebdf6519507abc36530/' + latitude + ',' + longitude + '?callback=?&units=' + units + '', function(json) {
         icon = json.currently.icon;
         temp = json.currently.temperature;
         $("#temp").html(Math.round(temp) + ('&deg;C'));
